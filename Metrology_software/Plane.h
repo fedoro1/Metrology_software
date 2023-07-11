@@ -8,6 +8,6 @@ public:
 private:
 	double standardDeviation; 
 	int minNumberOfElement = 3;
-	void Calculate(const std::vector<Element>& container);
+	void CalculatePlane(const std::vector<Element>& container);
 };
 

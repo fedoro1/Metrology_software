@@ -10,7 +10,7 @@ void Plane::ReadFromFile(const std::string& path, const std::string& fileName) {
     CalculatePlane(this->container);
 }
 
-void Plane::Calculate(const std::vector<Element>& container) {
+void Plane::CalculatePlane(const std::vector<Element>& container) {
     const int numPoints = container.size();
 
     Eigen::Matrix<double, Eigen::Dynamic, Eigen::Dynamic> A(numPoints, 3);

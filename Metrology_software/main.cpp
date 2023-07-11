@@ -11,8 +11,8 @@
 int main() {
 	std::string path = "E:\\Downloads\\";
 	std::string fileName = "myfile.txt";
-	Plane a;
-	a.ReadFromFile("E:\\Downloads\\", "myfile.txt");
+	//Plane a;
+	//a.ReadFromFile("E:\\Downloads\\", "myfile.txt");
 	//WritePointsToFile(path, fileName, a);
 	//Point a(1, 1, 1);
 	//a.WriteToFile(path, fileName);
@@ -32,8 +32,8 @@ int main() {
 	Point::WriteToFile("E:\\Downloads\\", "myfile.txt", b);
 	Point::WriteToFile("E:\\Downloads\\", "myfile.txt", c);
 	Point::WriteToFile("E:\\Downloads\\", "myfile.txt", d);*/
-	//Line line1; 
-	//line1.ReadFromFile(path, fileName);
+	Line line1; 
+	line1.ReadFromFile(path, fileName);
 	/*std::string path = "E:\\Downloads\\";
 	std::string fileName = "myfile1.txt";
 	Circle circle; 
